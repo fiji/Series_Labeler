@@ -40,6 +40,8 @@ exception statement from your version.
 This class is based on the original SimpleDateFormat.java stated above.*/
 
 
+import java.io.IOException;
+import java.io.ObjectInputStream;
 import java.text.DateFormat;
 import java.text.DateFormatSymbols;
 import java.text.FieldPosition;
@@ -50,11 +52,9 @@ import java.util.Date;
 import java.util.Enumeration;
 import java.util.GregorianCalendar;
 import java.util.Locale;
-import java.util.TimeZone;
 import java.util.SimpleTimeZone;
+import java.util.TimeZone;
 import java.util.Vector;
-import java.io.ObjectInputStream;
-import java.io.IOException;
 
 /**
  * SimpleDateFormat provides convenient methods for parsing and formatting dates
