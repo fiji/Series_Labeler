@@ -17,6 +17,7 @@
 
 	<name>plugins/Series_Labeler.jar</name>
 	<description></description>
+	<inceptionYear>2009</inceptionYear>
 
 	<scm>
 		<connection>scm:git:git://github.com/fiji/Series_Labeler</connection>
