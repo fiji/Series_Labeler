@@ -91,8 +91,8 @@
 		<url>https://github.com/fiji/Series_Labeler/issues</url>
 	</issueManagement>
 	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/job/Series_Labeler/</url>
+		<system>Travis CI</system>
+		<url>https://travis-ci.org/fiji/Series_Labeler</url>
 	</ciManagement>
 
 	<properties>
